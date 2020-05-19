@@ -22,7 +22,7 @@
 	{
 		margin-bottom: 2em;
 	}
-	
+
 		header h2
 		{
 			font-size: 3em;
@@ -43,7 +43,7 @@
 		padding: 5em 0em;
 		text-align: center;
 	}
-	
+
 		.homepage #header
 		{
 			padding: 10em 0em;
@@ -61,12 +61,12 @@
 	{
 		margin-bottom: 3em;
 	}
-	
+
 		#logo h1
 		{
 			color: #FFF;
 		}
-	
+
 		#logo h1 a
 		{
 			display: block;
@@ -86,8 +86,8 @@
 			text-transform: uppercase;
 			font-size: 1.2em;
 			color: #8e8588;
-		}			
-			
+		}
+
 
 /*********************************************************************************/
 /* Nav                                                                           */
@@ -96,7 +96,7 @@
 	#nav
 	{
 	}
-	
+
 		#nav ul
 		{
 			display: inline-block;
@@ -109,7 +109,7 @@
 		{
 			display: inline-block;
 		}
-		
+
 			#nav > ul > li:last-child
 			{
 				padding-right: 0;
@@ -168,11 +168,11 @@
 		letter-spacing: -1px;
 		font-size: 3em;
 	}
-	
+
 	#sidebar
 	{
 	}
-	
+
 	#sidebar header h2
 	{
 		font-size: 2em;
@@ -181,10 +181,9 @@
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
+
 	#footer
 	{
 		padding: 6em 0em;
 	}
-	
-	
+
