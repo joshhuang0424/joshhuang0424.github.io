@@ -265,6 +265,69 @@
 		background-size: cover;
 	}
 
+	.header div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+
+	.header div {
+		-webkit-animation: round 25s linear infinite;
+				animation: round 25s linear infinite;
+	}
+
+	@-webkit-keyframes round {
+		4% {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			/* 0 - 1秒 淡入*/
+		}
+		20% {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			/* 1- 5秒靜止*/
+		}
+		24% {
+			opacity: 0;
+			filter: alpha(opacity=0);
+			/* 5-6秒淡出*/
+		}
+	}
+	@keyframes round {
+		4% {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			/* 0 - 1秒 淡入*/
+		}
+		20% {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			/* 1- 5秒靜止*/
+		}
+		24% {
+			opacity: 0;
+			filter: alpha(opacity=0);
+			/* 5-6秒淡出*/
+		}
+	}
+
+	.header div:nth-child(3) {
+		-webkit-animation-delay: 10s;
+				animation-delay: 10s;
+	}
+
+	.header div:nth-child(2) {
+		-webkit-animation-delay: 15s;
+				animation-delay: 15s;
+	}
+
+	.header div:nth-child(1) {
+		-webkit-animation-delay: 20s;
+				animation-delay: 20s;
+	}
+
 	#logo
 	{
 	}
