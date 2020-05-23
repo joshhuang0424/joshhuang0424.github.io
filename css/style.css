@@ -261,8 +261,10 @@
 	#header
 	{
 		position: relative;
-		background: #ddd url(../images/theJosh.jpg) no-repeat center;
-		background-size: cover;
+		/*background: #ddd url(../images/theJosh.jpg) no-repeat center;*/
+		/*background-size: cover;*/
+		width: 700px;
+        height: 490px;
 	}
 
 	.header>a{
