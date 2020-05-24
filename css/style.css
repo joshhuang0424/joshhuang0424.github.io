@@ -264,61 +264,6 @@
 		background: #ddd url(../images/theJosh.jpg) no-repeat center;
 		background-size: cover;
 	}
-		.header>a{
-			display: block;
-			position: absolute;
-			top:0;
-			left:0;
-			opacity: 0;
-		filter: alpha(opacity=0);
-		-webkit-animation: silder 15s linear infinite;
-						animation: silder 15s linear infinite;
-		}
-		.header>a>img{
-			max-width: 100%;
-		}
-
-		@-webkit-keyframes silder {
-			3% {
-				opacity: 1;
-				filter: alpha(opacity=100);
-			}
-			27% {
-				opacity: 1;
-				filter: alpha(opacity=100);
-			}
-			30% {
-				opacity: 0;
-				filter: alpha(opacity=0);
-			}
-		}
-
-		@keyframes silder {
-			3% {
-				opacity: 1;
-				filter: alpha(opacity=100);
-			}
-			27% {
-				opacity: 1;
-				filter: alpha(opacity=100);
-			}
-			30% {
-				opacity: 0;
-				filter: alpha(opacity=0);
-			}
-		}
-
-		.header>a:nth-child(3) {
-			-webkit-animation-delay: 10s;
-					animation-delay: 10s;
-
-		}
-
-
-	.header:hover>a{
-	-webkit-animation-play-state: paused;
-	animation-play-state: paused;
-	}
 	#logo
 	{
 	}
